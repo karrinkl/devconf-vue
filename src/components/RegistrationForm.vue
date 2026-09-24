@@ -10,7 +10,7 @@
           class="form__input"
           :class="{ 'form__input--error': errors.name }"
           type="text"
-          placeholder="Карина Розе"
+          placeholder="Иван Иванов"
         />
         <span v-if="errors.name" class="form__helper form__helper--error">
           {{ errors.name }}
